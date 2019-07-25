@@ -1,4 +1,12 @@
+c_compiler:
+  - vs2017 #[win]
+
 cxx_compiler:
-  - vs2017
-target_platform:
-  - win-64
+  - vs2017 #[win]
+
+zip_keys:
+  -
+    - python
+    - vc           #[win]
+    - c_compiler   #[win]
+    - cxx_compiler #[win]
