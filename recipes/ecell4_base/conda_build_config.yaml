@@ -1,3 +1,6 @@
+vc:
+  - 14 #[win]
+
 c_compiler:
   - vs2017 #[win]
 
