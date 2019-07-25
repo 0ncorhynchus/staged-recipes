@@ -1,2 +1,4 @@
 cxx_compiler:
-  - vs2017  # [win]
+  - vs2017
+target_platform:
+  - win-64
