@@ -28,7 +28,6 @@ requirements:
   host:
     - python
     - setuptools
-    - pybind11
     - hdf5
     - gsl
     - boost
@@ -36,10 +35,7 @@ requirements:
   run:
     - libgcc-ng  # [linux]
     - libstdcxx-ng  # [linux]
-    - gsl
-    - hdf5
     - zlib
-    - python
 
 test:
   imports:
